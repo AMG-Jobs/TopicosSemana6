@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SIACBibliotecaClases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -18,7 +19,9 @@ namespace SIACWCF
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
-
+        
+        [OperationContract]
+        IList<CLIENTES> TraeClientes();
         // TODO: agregue aquí sus operaciones de servicio
     }
 

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="APELLIDO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PROVINCIA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CANTON" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DISTRITO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CONTRATOS" Relationship="Self.SYS_C0015675" FromRole="CLIENTES" ToRole="CONTRATOS" />
+  </EntityType>
+  <EntityType Name="CONTRATOS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FECHAINICIO" Type="DateTime" Nullable="false" />
+    <Property Name="FECHAFIN" Type="DateTime" Nullable="false" />
+    <Property Name="CLIENTE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="EMPRESA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <NavigationProperty Name="CLIENTES" Relationship="Self.SYS_C0015675" FromRole="CONTRATOS" ToRole="CLIENTES" />
+    <NavigationProperty Name="EMPRESAS" Relationship="Self.SYS_C0015676" FromRole="CONTRATOS" ToRole="EMPRESAS" />
+  </EntityType>
+  <EntityType Name="EMPRESAS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBREEMPRESA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CEDULAJURIDICA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PAISCASAMATRIZ" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CALIFICIACIÓN" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <NavigationProperty Name="CONTRATOS" Relationship="Self.SYS_C0015676" FromRole="EMPRESAS" ToRole="CONTRATOS" />
+  </EntityType>
+  <Association Name="SYS_C0015675">
+    <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="1" />
+    <End Role="CONTRATOS" Type="Self.CONTRATOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTES">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CONTRATOS">
+        <PropertyRef Name="CLIENTE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C0015676">
+    <End Role="EMPRESAS" Type="Self.EMPRESAS" Multiplicity="1" />
+    <End Role="CONTRATOS" Type="Self.CONTRATOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPRESAS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CONTRATOS">
+        <PropertyRef Name="EMPRESA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SIACEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" />
+    <EntitySet Name="CONTRATOS" EntityType="Self.CONTRATOS" />
+    <EntitySet Name="EMPRESAS" EntityType="Self.EMPRESAS" />
+    <AssociationSet Name="SYS_C0015675" Association="Self.SYS_C0015675">
+      <End Role="CLIENTES" EntitySet="CLIENTES" />
+      <End Role="CONTRATOS" EntitySet="CONTRATOS" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C0015676" Association="Self.SYS_C0015676">
+      <End Role="EMPRESAS" EntitySet="EMPRESAS" />
+      <End Role="CONTRATOS" EntitySet="CONTRATOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

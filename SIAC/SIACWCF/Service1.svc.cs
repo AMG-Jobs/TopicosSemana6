@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SIACBibliotecaClases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -29,5 +30,14 @@ namespace SIACWCF
             }
             return composite;
         }
+
+        public IList<CLIENTES> TraeClientes()
+        {
+            var accion = new Acciones.Clientes();
+            var resultado = accion.TraeClientes();
+            return resultado;
+        }
+
+        
     }
 }

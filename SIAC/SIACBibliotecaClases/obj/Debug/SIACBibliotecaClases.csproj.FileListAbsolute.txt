@@ -1,0 +1,14 @@
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\SIACBibliotecaClases.dll.config
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\SIACBibliotecaClases.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\SIACBibliotecaClases.pdb
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\EntityFramework.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\EntityFramework.xml
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\obj\Debug\SIACBibliotecaClases.csproj.CopyComplete
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\obj\Debug\SIACBibliotecaClases.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\obj\Debug\SIACBibliotecaClases.pdb
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\obj\Debug\SIACBibliotecaClases.csprojAssemblyReference.cache
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\Oracle.VsDevTools.EntityFramework.16.0.dll

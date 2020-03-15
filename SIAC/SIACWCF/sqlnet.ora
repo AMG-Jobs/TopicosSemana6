@@ -1,0 +1,2 @@
+WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="C:\Users\aamg3\OneDrive\Escritorio\Wallet_DB202002221448")))
+SSL_SERVER_DN_MATCH=yes

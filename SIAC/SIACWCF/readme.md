@@ -1,0 +1,1 @@
+This wallet will expire on 2025-02-20 20:52:31.268. In order to avoid any service interruptions due to an expired wallet certificate, you must re-download the wallet before this date.

@@ -1,0 +1,16 @@
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\obj\Debug\SIACWCF.csprojAssemblyReference.cache
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\SIACWCF.dll.config
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\SIACWCF.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\SIACWCF.pdb
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\SIACBibliotecaClases.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\EntityFramework.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\SIACBibliotecaClases.pdb
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\SIACBibliotecaClases.dll.config
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\EntityFramework.xml
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\obj\Debug\SIACWCF.csproj.CopyComplete
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\obj\Debug\SIACWCF.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\obj\Debug\SIACWCF.pdb
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\Oracle.ManagedDataAccess.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\EntityFramework.SqlServer.xml
