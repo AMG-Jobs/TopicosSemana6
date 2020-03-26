@@ -14,3 +14,4 @@ C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\EntityFramework.SqlS
 C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\Oracle.ManagedDataAccess.dll
 C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\Oracle.ManagedDataAccess.EntityFramework.dll
 C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACWCF\obj\Debug\SIACWCF.csproj.CoreCompileInputs.cache

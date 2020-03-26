@@ -12,3 +12,4 @@ C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\obj\Debug\S
 C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\obj\Debug\SIACBibliotecaClases.pdb
 C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\obj\Debug\SIACBibliotecaClases.csprojAssemblyReference.cache
 C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\bin\Debug\Oracle.VsDevTools.EntityFramework.16.0.dll
+C:\Users\aamg3\Source\Repos\TopicosSemana6\SIAC\SIACBibliotecaClases\obj\Debug\SIACBibliotecaClases.csproj.CoreCompileInputs.cache

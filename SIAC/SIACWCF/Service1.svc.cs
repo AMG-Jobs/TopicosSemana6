@@ -13,22 +13,32 @@ namespace SIACWCF
     // NOTE: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Service1.svc o Service1.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class Service1 : IService1
     {
-        public string GetData(int value)
+        public CLIENTES BuscarClientePorId(int idCliente)
         {
-            return string.Format("You entered: {0}", value);
+            var accion = new Acciones.Clientes();
+            var resultado = accion.BuscarClientePorId(idCliente);
+            return resultado;
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+        public CLIENTES CrearCliente(CLIENTES nuevoCliente)
         {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
+            var accion = new Acciones.Clientes();
+            var resultado = accion.CrearCliente(nuevoCliente);
+            return resultado;
+        }
+
+        public CLIENTES EditarCliente(CLIENTES clienteEditado)
+        {
+            var accion = new Acciones.Clientes();
+            var resultado = accion.EditarCliente(clienteEditado);
+            return resultado;
+        }
+
+        public string EliminarCliente(int clienteEliminado)
+        {
+            var accion = new Acciones.Clientes();
+            var resultado = accion.EliminarCliente(clienteEliminado);
+            return resultado;
         }
 
         public IList<CLIENTES> TraeClientes()
